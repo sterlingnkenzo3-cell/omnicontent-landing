@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniContent IA - Recyclage de Contenu pour Agences</title>
+    <style>
+        /* Design Système Premium 2026 - Autonome et Moderne */
+        :root {
+            --bg-main: #030712;
+            --bg-card: #0b1329;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --primary: #3b82f6;
+            --primary-hover: #60a5fa;
+            --accent: #6366f1;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 2rem 1rem;
+            overflow-x: hidden;
+        }
+
+        header {
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+            padding-bottom: 2rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: -0.05em;
+            background: linear-gradient(90deg, #60a5fa, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+        }
+
+        main {
+            max-width: 800px;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        /* Badge Date de Lancement */
+        .launch-badge {
+            display: inline-block;
+            background-color: rgba(59, 130, 246, 0.1);
+            border: 1px solid var(--primary);
+            color: #60a5fa;
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: 0.5rem 1.25rem;
+            border-radius: 2rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            margin-bottom: 1.5rem;
+            color: #ffffff;
+        }
+
+        @media (max-width: 640px) {
+            h1 { font-size: 2rem; }
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+            max-width: 650px;
+            margin: 0 auto 2.5rem auto;
+        }
+
+        /* Simulateur d'Économies Interactif */
+        .interactive-box {
+            background: var(--bg-card);
+            border: 1px solid #1f2937;
+            border-radius: 1.5rem;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+        }
+
+        .widget-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #ffffff;
+        }
+
+        .slider-container {
+            margin: 1.5rem 0;
+        }
+
+        input[type=range] {
+            width: 100%;
+            max-width: 400px;
+            accent-color: var(--primary);
+        }
+
+        .result-grid {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .result-card h3 {
+            font-size: 1.75rem;
+            color: #34d399;
+            font-weight: 800;
+        }
+
+        .result-card p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Bouton d'Action Tactique */
+        .cta-btn {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #030712;
+            font-weight: 700;
+            font-size: 1.125rem;
+            padding: 1.25rem 2.5rem;
+            border-radius: 0.75rem;
+            text-decoration: none;
+            box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.3);
+            transition: all 0.2s ease;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-btn:hover {
+            background-color: #f3f4f6;
+            transform: translateY(-2px);
+        }
+
+        .urgency {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            max-width: 500px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        .highlight {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        footer {
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #4b5563;
+            padding-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">✨ OmniContent IA</div>
+    </header>
+
+    <main>
+        <!-- Badge d'Urgence Temporel -->
+        <div class="launch-badge">🚀 Lancement Officiel : Vendredi 26 Juin 2026</div>
+
+        <h1>Arrêtez de passer 5 heures à recycler un seul contenu pour vos clients.</h1>
+        
+        <p class="subtitle">Collez une vidéo YouTube ou un article, et notre IA génère instantanément 3 posts LinkedIn premium, 1 thread X et 2 scripts TikTok. Conçu spécifiquement pour le copywriting B2B.</p>
+
+        <!-- Widget Interactif -->
+        <div class="interactive-box">
+            <p class="widget-title">Simulez vos gains avec OmniContent IA</p>
+            <div class="slider-container">
+                <label for="posts-range" style="display:block; margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--text-muted);">Nombre de contenus à recycler par mois : <span id="posts-count" style="color: #ffffff; font-weight: bold;">10</span></label>
+                <input type="range" id="posts-range" min="2" max="50" value="10">
+            </div>
+            <div class="result-grid">
+                <div class="result-card">
+                    <h3 id="hours-saved">30h</h3>
+                    <p>Temps gagné / mois</p>
+                </div>
+                <div class="result-card">
+                    <h3 id="money-saved">450 €</h3>
+                    <p>Économie estimée / mois</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <a href="https://wa.me" 
+               target="_blank" 
+               class="cta-btn">
+                Demander mon accès Bêta (49€/mois) ➔
+            </a>
+        </div>
+
+        <p class="urgency">
+            Tarif officiel après le lancement du <span class="highlight">26 juin 2026</span> : 199 €/mois. Offre bêta strictement limitée aux 20 premières agences partenaires pour sécuriser le tarif de <span class="highlight">49 €/mois à vie</span>. 100% remboursé si vous ne gagnez pas au moins 5 heures dès la première semaine.
+        </p>
+    </main>
+
+    <footer>
+        &copy; 2026 OmniContent IA. Tous droits réservés.
+    </footer>
+
+    <script>
+        const rangeInput = document.getElementById('posts-range');
+        const postsCount = document.getElementById('posts-count');
+        const hoursSaved = document.getElementById('hours-saved');
+        const moneySaved = document.getElementById('money-saved');
+
+        rangeInput.addEventListener('input', (e) => {
+            const val = e.target.value;
+            postsCount.innerText = val;
+            hoursSaved.innerText = (val * 3) + 'h';
+            moneySaved.innerText = (val * 45) + ' €';
+        });
+    </script>
+</body>
+</html>
